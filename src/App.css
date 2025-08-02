@@ -1,0 +1,254 @@
+/* Base layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+/* Main container */
+.api-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Title */
+.api-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #f0f6fc;
+}
+
+/* Tab Buttons */
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.api-button {
+  background-color: #21262d;
+  color: #c9d1d9;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.api-button:hover {
+  background-color: #30363d;
+}
+
+.active-tab {
+  background-color: #238636;
+  color: #ffffff;
+}
+
+/* Run & Export Buttons */
+.run-button {
+  background-color: #2ea043;
+  color: #fff;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.run-button:hover {
+  background-color: #238636;
+}
+
+.export-button {
+  background-color: #8957e5;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.export-button:hover {
+  background-color: #6e40c9;
+}
+
+/* Input Fields */
+.input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+/* Result Container */
+.result-container {
+  margin-top: 2rem;
+}
+
+.result-block {
+  background-color: #1c2128;
+  padding: 1rem;
+  border-left: 4px solid #238636;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.api-response {
+  background-color: #0d1117;
+  color: #f0f6fc;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+/* Error Message */
+.api-error {
+  color: #f85149;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Status Indicators */
+.status {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.status.success {
+  color: #2ea043;
+}
+
+.status.error {
+  color: #f85149;
+}
+
+/* Custom API Section */
+.custom-api {
+  margin-top: 2rem;
+  background-color: #161b22;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* ================= ANALYTICS STYLES ================= */
+
+.analytics-section {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #1e1e2f;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.analytics-section h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.analytics-table-container {
+  flex-grow: 1;
+  margin-top: 20px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #121622;
+  padding: 10px;
+  min-height: 200px;
+  max-height: 300px;
+}
+
+.analytics-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #c9d1d9;
+  font-size: 0.9rem;
+}
+
+.analytics-table th,
+.analytics-table td {
+  padding: 8px;
+  border-bottom: 1px solid #444;
+}
+
+.analytics-table th {
+  text-align: left;
+}
+
+.analytics-table td.center {
+  text-align: center;
+}
+
+.analytics-table tr:nth-child(even) {
+  background-color: #161b22;
+}
+
+.analytics-table tr:nth-child(odd) {
+  background-color: #1c2128;
+}
+
+.analytics-table td.result-pass {
+  color: #4ade80;
+  font-weight: 600;
+}
+
+.analytics-table td.result-fail {
+  color: #f87171;
+  font-weight: 600;
+}
+
+.analytics-table td.snippet {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.analytics-table-container {
+  flex-grow: 1;
+  margin-top: 20px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #121622;
+  padding: 10px;
+  min-height: 200px;
+  max-height: 300px;
+  position: relative;
+}
+
+.analytics-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #1e1e2f;
+  z-index: 1;
+  color: white;
+}
+
+.analytics-table tr.result-pass {
+  background-color: #112619 !important;
+}
+
+.analytics-table tr.result-fail {
+  background-color: #2a1212 !important;
+}
+
+.analytics-table td,
+.analytics-table th {
+  padding: 8px;
+  color: white;
+}
