@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/api-testing-mockgenerator/static/css/main.86e7a569.css",
+    "main.js": "/api-testing-mockgenerator/static/js/main.3fecd983.js",
+    "static/js/977.6c8e3c02.chunk.js": "/api-testing-mockgenerator/static/js/977.6c8e3c02.chunk.js",
+    "static/js/732.d6455a96.chunk.js": "/api-testing-mockgenerator/static/js/732.d6455a96.chunk.js",
+    "static/js/453.395c38e1.chunk.js": "/api-testing-mockgenerator/static/js/453.395c38e1.chunk.js",
+    "index.html": "/api-testing-mockgenerator/index.html",
+    "main.86e7a569.css.map": "/api-testing-mockgenerator/static/css/main.86e7a569.css.map",
+    "main.3fecd983.js.map": "/api-testing-mockgenerator/static/js/main.3fecd983.js.map",
+    "977.6c8e3c02.chunk.js.map": "/api-testing-mockgenerator/static/js/977.6c8e3c02.chunk.js.map",
+    "732.d6455a96.chunk.js.map": "/api-testing-mockgenerator/static/js/732.d6455a96.chunk.js.map",
+    "453.395c38e1.chunk.js.map": "/api-testing-mockgenerator/static/js/453.395c38e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86e7a569.css",
+    "static/js/main.3fecd983.js"
+  ]
+}
